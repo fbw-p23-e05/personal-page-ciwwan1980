@@ -1,0 +1,19 @@
+/* Include general styles */
+
+
+body {
+    background-color: #f4f4f4; /* Light background color */
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+
+#about {
+    background-color: #fff;
+    padding: 40px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+/* css/cover.css */
+
+
+

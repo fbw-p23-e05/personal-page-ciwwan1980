@@ -13,11 +13,11 @@ Let's create your personal web page, the following content is necessary:
   
   **BONUS TASK** 👇
   
-- Create a section called contact me, and create a form (use mailto: in the action) with three text fields:
-  - one for name 
-  - one for e-mail  
-  - one for the main text
-  - a button to submit
+  - Create a section called contact me, and create a form (use mailto: in the action) with three text fields:
+    - one for name 
+    - one for e-mail  
+    - one for the main text
+    - a button to submit
 
     
 - Commit your changes.
