@@ -8,30 +8,23 @@ body, h1, h2, p, ul {
 body {
     font-family: Arial, sans-serif;
     line-height: 1.6;
+    background-color: #f4f4f4;
 }
 
 header {
-    background-color: #f4f4f4;
+    background-color: #007bff;
     text-align: center;
     padding: 20px;
+    color: #fff;
 }
 
-h1 {
-    color: #333;
-}
-
-section {
-    margin: 20px 0;
-    padding: 20px;
-    background-color: #f4f4f4;
-}
-
-ul {
+nav ul {
     list-style: none;
 }
 
-ul li {
-    margin-bottom: 10px;
+nav ul li {
+    display: inline;
+    margin-right: 20px;
 }
 
 a {
