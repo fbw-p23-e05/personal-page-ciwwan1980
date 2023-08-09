@@ -1,6 +1,11 @@
 /* Include general styles */
-@import url("style.css");
 
+
+body {
+    background-color: #f4f4f4; /* Light background color */
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
 
 #about {
     background-color: #fff;
@@ -8,5 +13,7 @@
     border-radius: 5px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
+/* css/cover.css */
+
 
 

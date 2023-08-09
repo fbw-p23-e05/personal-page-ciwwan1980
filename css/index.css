@@ -1,0 +1,90 @@
+/* Reset some default styles */
+body, h1, h2, p, ul {
+    margin: 0;
+    padding: 0;
+}
+
+/* Apply some general styling */
+body {
+    background-color: black;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+
+header {
+    background-color: #222;
+    text-align: center;
+    padding: 20px;
+    color: #fff;
+}
+
+nav ul {
+    list-style: none;
+    text-align: center;
+    margin-top: 20px;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+a {
+    text-decoration: none;
+    color: yellow;
+    font-size: 20px; /* Increase font size for navigation links */
+}
+
+.main-content {
+    padding: 20px;
+    color: white;
+    border-radius: 10px;
+    box-shadow: 10px 10px 15px #1a1b21, -10px -10px 15px #23252d;
+    margin: 50px auto; /* Adjust margin to center the box vertically */
+    width: 80%;
+    max-width: 800px;
+    background-color: rgba(255, 255, 255, 0.367); 
+    font-size: 20px;
+}
+
+/* Add styles for the back button */
+.back-button {
+    display: inline-block;
+    margin-top: 10px;
+    color: #555;
+    font-size: 14px;
+    text-decoration: none;
+}
+
+.cover-image {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 30%;
+    height: 100%;
+    background-image: url('foto.jpg'); /* Replace with your image path */
+    background-size: cover;
+    background-position: center center;
+    opacity: 0.5;
+    z-index: -1;
+    -webkit-animation: kenburns-bottom-left 5s ease-out both;
+    animation: kenburns-bottom-left 5s ease-out both;
+}
+
+@-webkit-keyframes kenburns-bottom-left {
+    0% {
+        -webkit-transform: scale(1) translate(0, 0);
+        transform: scale(1) translate(0, 0);
+        -webkit-transform-origin: 16% 84%;
+        transform-origin: 16% 84%;
+    }
+    100% {
+        -webkit-transform: scale(1.25) translate(-20px, 15px);
+        transform: scale(1.25) translate(-20px, 15px);
+        -webkit-transform-origin: left bottom;
+        transform-origin: left bottom;
+    }
+}
+
